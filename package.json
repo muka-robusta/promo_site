@@ -1,0 +1,18 @@
+{
+  "name": "promo_site",
+  "version": "1.0.0",
+  "description": "Simple business ad website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sav",
+  "license": "MIT",
+  
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "jade": "*",
+    "nodemailer": "*"
+  }
+}
