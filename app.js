@@ -35,7 +35,7 @@ app.post("/contact/send", function(req, res){
 
 	var mailOptions = {
 		from: "Ilya",
-		to: "illiafun@yandex.com",
+		to: "mail@yandex.com",
 		subject: "Website Submission",
 		text: "You have a submission with following details\nName: " + req.body.name + " \nEmail: " + req.body.email 
 			+ " \nMessage: " + req.body.message,
