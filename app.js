@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", function(req, res){
-	res.render("index", {title: "Computer is not working?"});
+	res.render("index", {title: "Лінки на відеоконференції"});
 });
 
 app.get("/about", function(req, res){
@@ -55,5 +55,5 @@ app.post("/contact/send", function(req, res){
 
 });
 
-app.listen(3000);
-console.log("Server is running on port 3000");
+app.listen(8080);
+console.log("Server is running on port 8080");
